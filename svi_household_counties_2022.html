@@ -1,0 +1,221 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Metadata Report</title>
+<style>
+          body { font-family: Arial, sans-serif; margin: 20px; }
+          h1 { text-align: center; }
+          h2 { background-color: #eee; padding: 10px; }
+          .field-value-container { display: flex; flex-direction: column; margin-bottom: 20px; }
+          .field-value-pair { display: flex; align-items: flex-start; margin-bottom: 10px; }
+          .field { font-weight: bold; min-width: 250px; white-space: nowrap; margin-right: 40px; }
+          .value { flex: 1; white-space: pre-line; }
+          table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+          th, td { border: 1px solid #000; padding: 8px; text-align: left; }
+          th { background-color: #ddd; }
+      </style>
+</head>
+<body>
+<h1>Metadata Information</h1>
+<h2>Overview</h2>
+<div class="field-value-container">
+<div class="field-value-pair">
+<div class="field">Originator:</div>
+<div class="value">Centers for Disease Control - Agency for Toxic Substances and Disease Registry</div>
+</div>
+<div class="field-value-pair">
+<div class="field">Title:</div>
+<div class="value">Household Characteristics Theme - Social Vulnerability Index, counties. 2018-2022 5-year ACS</div>
+</div>
+<div class="field-value-pair">
+<div class="field">Abstract:</div>
+<div class="value">The Household Characteristics Theme is one of four that composes the CDC/ATSDR Social Vulneratiblity Index. Five different variables derived from the United States Census Bureau's American Community Survey belong to this theme, including persons age 65 and older, persons age 17 and younger, civilian noninstitutionalized population with a disability, households headed by a single parent, and persons age 5 and older who speak English 'less than well'.</div>
+</div>
+<div class="field-value-pair">
+<div class="field">Time Period of Content Date:</div>
+<div class="value">2018-2022 5-year ACS</div>
+</div>
+<div class="field-value-pair">
+<div class="field">Theme Keywords:</div>
+<div class="value">Data is available for virtually all U.S. counties.</div>
+</div>
+<div class="field-value-pair">
+<div class="field">Contact Person Information:</div>
+<div class="value">TBD</div>
+</div>
+</div>
+<h2>Data Quality</h2>
+<div class="field-value-container">
+<div class="field-value-pair">
+<div class="field">Completeness:</div>
+<div class="value">Data are available for the United States. Data are not provided for Puerto Rico or the US territories.</div>
+</div>
+<div class="field-value-pair">
+<div class="field">Missing Data:</div>
+<div class="value">TBD</div>
+</div>
+<div class="field-value-pair">
+<div class="field">Lineage:</div>
+<div class="value">The findSVI R package (https://cran.r-project.org/web/packages/findSVI/index.html) was used the compute the variables for this theme. This R package depends on the tidyCensus R package (https://cran.r-project.org/web/packages/findSVI/index.html) to access American Community Survey data from the Census Bureau's API.</div>
+</div>
+</div>
+<h2>Distribution</h2>
+<div class="field-value-container">
+<div class="field-value-pair">
+<div class="field">Publisher:</div>
+<div class="value">Healthy Communities Data Portal</div>
+</div>
+<div class="field-value-pair">
+<div class="field">Publication Date:</div>
+<div class="value">2025</div>
+</div>
+</div>
+<h2>Attributes</h2>
+<table>
+<tr>
+<th>Column</th>
+<th>Type</th>
+<th>Label</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>E_AGE65</td>
+<td>numeric</td>
+<td>Persons aged 65 and older estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>E_AGE17</td>
+<td>numeric</td>
+<td>Persons aged 17 and younger estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>E_DISABL</td>
+<td>numeric</td>
+<td>Civilian noninstitutionalized population with a disability estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>E_SNGPNT</td>
+<td>numeric</td>
+<td>Single-parent household with children under 18 estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>E_LIMENG</td>
+<td>numeric</td>
+<td>Persons (age 5+) who speak English 'less than well' estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EP_AGE65</td>
+<td>numeric</td>
+<td>Percentage of persons aged 65 and older estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EP_AGE17</td>
+<td>numeric</td>
+<td>Percentage of persons aged 17 and younger estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EP_DISABL</td>
+<td>numeric</td>
+<td>Percentage of civilian noninstitutionalized population with a disability estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EP_SNGPNT</td>
+<td>numeric</td>
+<td>Percentage of single-parent households with children under 18 estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EP_LIMENG</td>
+<td>numeric</td>
+<td>Percentage of persons (age 5+) who speak English 'less than well' estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EPL_AGE65</td>
+<td>numeric</td>
+<td>Percentile percentage of persons aged 65 and older estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EPL_AGE17</td>
+<td>numeric</td>
+<td>Percentile percentage of persons aged 17 and younger estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EPL_DISABL</td>
+<td>numeric</td>
+<td>Percentile percentage of civilian noninstitutionalized population with a disability estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EPL_SNGPNT</td>
+<td>numeric</td>
+<td>Percentile percentage of single-parent households with children under 18 estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>EPL_LIMENG</td>
+<td>numeric</td>
+<td>Percentile percentage of persons (age 5+) who speak English 'less than well' estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>SPL_theme2</td>
+<td>numeric</td>
+<td>Sum of series (percentiles) for Household Characteristics theme</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>RPL_theme2</td>
+<td>numeric</td>
+<td>Percentile ranking for Household Characteristics theme</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>E_HU</td>
+<td>numeric</td>
+<td>Housing units estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>E_HH</td>
+<td>numeric</td>
+<td>Households estimate</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>GEOID</td>
+<td>character</td>
+<td>FIPS code</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>NAME</td>
+<td>character</td>
+<td>Geographic unit name</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>STATE</td>
+<td>character</td>
+<td>State abbreviation</td>
+<td>NA</td>
+</tr>
+<tr>
+<td>YEAR</td>
+<td>numeric</td>
+<td>5-year ACS dataset on which measures are based</td>
+<td>NA</td>
+</tr>
+</table>
+</body>
+</html>
